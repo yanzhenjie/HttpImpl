@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.yanzhenjie.http.client'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'org.apache.commons:commons-lang3:3.9'
+    implementation 'commons-io:commons-io:2.6'
+    implementation 'org.apache.commons:commons-collections4:4.3'
+}
